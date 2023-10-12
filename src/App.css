@@ -43,11 +43,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 
-  /* background-color: #131313;
-  opacity: 0.8;
-  background-image: radial-gradient(#858585 0.5px, #231573 0.5px);
-  background-size: 10px 10px; */
-
   font-family: "Source Code Pro", monospace;
   width: 100vw;
 }
