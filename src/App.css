@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Source+Code+Pro:wght@400;500&family=VT323&display=swap");
+
+/* reset css */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section,
+span,
+p {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+}
+
+/*  */
+
+body {
+  background-image: url("bg_1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* background-color: #131313;
+  opacity: 0.8;
+  background-image: radial-gradient(#858585 0.5px, #231573 0.5px);
+  background-size: 10px 10px; */
+
+  font-family: "Source Code Pro", monospace;
+  width: 100vw;
+}
+
+.bmt-logo {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  margin-right: 20px;
+}
+
+.line {
+  height: 110px;
+  width: 1px;
+  background-color: white;
+  margin-right: 15px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  /* position: absolute; */
+  /* top: 35px; */
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+
+.title {
+  line-height: 35px;
+}
+
+.content h3 {
+  font-size: 22px;
+  color: white;
+  font-weight: 300;
+}
+
+.content p {
+  font-size: 35px;
+  color: white;
+}
+
+.social-media > a {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) all 500ms;
+}
+
+.social-media > a:hover {
+  scale: 110%;
+}
+
+.social-media {
+  /* position: absolute; */
+  /* bottom: 35px; */
+  display: flex;
+}
+
+.instagram {
+  padding-right: 20px;
+}
+
+.social-media-line {
+  height: 32px;
+  width: 1px;
+  background-color: white;
+  margin-right: 15px;
+}
+
+.text > p {
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 0px 8px 3px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 1000px) {
+  .content {
+    padding: 2rem 1rem;
+  }
+  .text > p {
+    font-size: 1.5rem;
+  }
+
+  .bmt-logo {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .content h3 {
+    font-size: 1rem;
+  }
+
+  .title {
+    line-height: normal;
+  }
+
+  .line {
+    height: 5rem;
+  }
+}
