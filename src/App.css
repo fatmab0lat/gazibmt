@@ -2,7 +2,7 @@
 
 /* reset css */
 
-*,
+/* *,
 *::before,
 *::after {
   margin: 0;
@@ -33,11 +33,11 @@ p {
   padding: 0;
   outline: none;
   border: none;
-}
+} */
 
 /*  */
 
-body {
+/* body {
   background-image: url("bg_1.png");
   background-size: cover;
   background-position: center;
@@ -64,8 +64,6 @@ body {
 .header {
   display: flex;
   align-items: center;
-  /* position: absolute; */
-  /* top: 35px; */
 }
 
 .content {
@@ -146,4 +144,4 @@ body {
   .line {
     height: 5rem;
   }
-}
+} */
