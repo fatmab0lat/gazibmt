@@ -22,18 +22,24 @@ function Home() {
           <div>İletişim</div>
         </div>
       </div>
-      {/* navbar end */}
       <div className="w-full h-px bg-line mt-3"></div>
       {/* content start*/}
       <div className="pl-10 h-3/5 flex items-center justify-center flex-col">
-        <p className="text-4xl text-content">Birlikte Geleceğe!</p>
-        <div className="text-2xl text-white">
-          <p>
-            Etkinliklerimizden haberdar olmak bizleri takip edin! Sizleri
-            sektördeki isimlerle buluşturalım, etkinliklerimizle birbirimizi
-            daha iyi tanıyalım.
+        <p className="text-5xl text-content">Gazi Üniversitesi</p>
+        <div className="mt-4">
+          <p className="text-2xl text-white">
+            Bilgisayar Mühendisliği Topluluğu
           </p>
         </div>
+      </div>
+      {/* buttons start*/}
+      <div className="pl-10 flex justify-center">
+        <button className=" w-36 h-12 mr-4 text-content hover:bg-content hover:text-line hover:scale-110 transition ease-in-out delay-150 border-solid border-2 border-line bg-line rounded-2xl text-xl font-semibold pr-3 pl-3 pt-2 pb-2">
+          Üye Ol
+        </button>
+        <button className=" w-36 h-12 text-line hover:bg-line hover:text-content hover:scale-110 transition ease-in-out delay-150 border-solid border-2 border-line bg-content rounded-2xl text-xl font-semibold pr-3 pl-3 pt-2 pb-2">
+          Giriş Yap
+        </button>
       </div>
     </div>
   );
